@@ -1,0 +1,692 @@
+.sms-code{
+	margin: auto;
+	border: 0 !important;
+	font-size: 36px !important;
+	line-height: 42px;
+	padding: 15px !important;
+	outline: none !important;
+	letter-spacing: 12px;
+	width: 170px;
+
+    .red{
+        color: red !important;
+    }
+}
+
+.sms-code::-webkit-input-placeholder {
+	color: #1C28FF;
+	font-size: 60px;
+	font-weight: 800;
+}
+
+/* Style for WDH Calc */
+.active {
+	display: block;
+}
+
+#dropZone {
+	width: 100%;
+	height: 150px;
+	background: #efebeb;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	margin: 10px 0;
+}
+
+#dropZone.hover {
+	background: #ddd;
+	border-color: #aaa;
+}
+
+#dropZone.error {
+	background: #faa;
+	border-color: #f00;
+}
+
+#dropZone.drop {
+	background: #afa;
+	border-color: #0f0;
+}
+
+#loader {
+	width: 720px;
+	height: 82px;
+	position: relative;
+	overflow: hidden;
+}
+
+.wrap-loader {
+	width: 720px;
+	height: 82px;
+	background: url(https://sycamore.kz/wp-content/plugins/wdh-calc/img/subtract.svg) no-repeat;
+	z-index: 1000;
+	position: absolute;
+	overflow: hidden;
+}
+
+#zebra {
+	width: 720px;
+	height: 28px;
+	background: url(https://sycamore.kz/wp-content/plugins/wdh-calc/img/zebram.png);
+	position: absolute;
+	margin-top: 42px;
+	z-index: 9;
+	left: -100%;
+}
+
+.loader-text {
+	position: absolute;
+	z-index: 1100;
+	right: 10px;
+	top: 4px;
+}
+
+.wdh-container-fluid {
+	background: #F0F0F9;
+}
+
+#whd-vertical-wrap {
+	position: relative;
+	z-index: 1051;
+	margin-top: 146px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 230px;
+	width: 881px;
+	height: 1376px;
+}
+
+.whd-vertical {
+	background: url(https://sycamore.kz/wp-content/plugins/wdh-calc/img/vertical.png) no-repeat;
+	z-index: 1051;
+	width: 881px;
+	height: 1376px;
+}
+
+.wdh-quest-top {
+	width: 368px;
+	height: 269px;
+	background: linear-gradient(0deg, #EAFF00, #EAFF00), linear-gradient(0deg, rgba(234, 255, 0, 0.1), rgba(234, 255, 0, 0.1));
+	padding: 20px;
+	z-index: 1052;
+	position: absolute;
+	top: -60px;
+	text-align: right;
+	border: 0;
+	border-radius: 0;
+	line-height: 1.5;
+}
+
+.wdh-quest-top p {
+	font-size: 19px;
+}
+
+.wdh-space-box02 {
+	width: 205px;
+	text-align: right;
+	position: absolute;
+	top: 237px;
+	border: 0;
+	background: none;
+	line-height: 1.5;
+}
+
+.wdh-space-box02 p {
+	font-size: 19px;
+	text-align: right;
+	margin-bottom: 0;
+}
+
+.wdh-space-box03 {
+	width: 240px;
+	position: absolute;
+	text-align: left;
+	top: 460px;
+	right: 0;
+	border: 0;
+	background: none;
+	line-height: 1.5;
+}
+
+.wdh-space-box03 p {
+	font-size: 19px;
+	margin-bottom: 0;
+
+}
+
+.wdh-blue {
+	color: #1C28FF;
+}
+
+.wdh-space-box04 {
+	width: 250px;
+	position: absolute;
+	text-align: right;
+	top: 755px;
+	border: 0;
+	background: none;
+	line-height: 1.5;
+	padding: 0;
+}
+
+.wdh-space-box04 p {
+	font-size: 19px;
+	margin-bottom: 0;
+}
+
+.wdh-space-box05 {
+	width: 250px;
+	position: absolute;
+	text-align: right;
+	top: 1130px;
+	border: 0;
+	background: none;
+	line-height: 1.5;
+}
+
+.wdh-space-box05 p {
+	font-size: 19px;
+	margin-bottom: 0;
+}
+
+.wdh-space-box06 {
+	width: 250px;
+	position: absolute;
+	text-align: right;
+	top: 1367px;
+	left: 290px;
+	border: 0;
+	background: none;
+	line-height: 1.5;
+}
+
+.wdh-space-box06 p {
+	font-size: 19px;
+	margin-bottom: 0;
+}
+
+.title-row {
+	display: flex;
+	width: 100%;
+	position: relative;
+	height: 36px;
+}
+
+.start-rec {
+	position: absolute;
+	left: 0;
+}
+
+.discovery-rec {
+	position: absolute;
+	left: 30%;
+}
+
+.development-rec {
+	position: absolute;
+	left: 60%;
+}
+
+.delivery-rec {
+	position: absolute;
+	right: 0;
+}
+
+.title-row {
+	font-weight: 700;
+	color: #93939F;
+}
+
+.come {
+	color: #222329;
+}
+
+.band {
+	height: 120px;
+	position: relative;
+	width: 100%;
+}
+
+.base-rec {
+	position: relative;
+	display: flex;
+	width: 100%;
+	height: 42px;
+	border: 2px solid #222329;
+	margin-top: -40px;
+}
+
+.sector-rec {
+	width: 30%;
+	height: 40px;
+	border-right: 2px solid #222329;
+}
+
+.sector-rec-sm {
+	width: 10%;
+	height: 40px;
+}
+
+.polosa {
+	height: 26px;
+	background: #222329;
+	position: absolute;
+	top: 44px;
+	left: 8px;
+	right: 8px;
+}
+
+.pw10 {
+	width: 10%;
+}
+
+.pw33 {
+	width: 33%;
+}
+
+.pw70 {
+	width: 70%;
+}
+
+.pw100 {
+	width: 100%;
+}
+
+.top-rec {
+	width: 100%;
+	height: 40px;
+	position: relative;
+	display: flex;
+}
+
+.smsm-band {
+	width: 12px;
+	height: 38px;
+	border-right: 2px solid #EAFF00;
+	position: absolute;
+}
+
+.sector-band {
+	width: 33%;
+	height: 41px;
+	border-right: 2px solid #222329;
+}
+
+
+.act {
+	border-right: 2px solid #EAFF00 !important;
+}
+
+.row-bottom-band {
+	height: 40px;
+	display: flex;
+	color: #93939F;
+}
+
+.band-date-2 {
+	position: absolute;
+	left: 30%;
+}
+
+.band-date-3 {
+	position: absolute;
+	left: 60%;
+}
+
+.band-date-4 {
+	position: absolute;
+	right: 0;
+}
+
+.sh-left {
+	height: 135px;
+	width: 312px;
+	background: url(https://sycamore.kz/wp-content/plugins/wdh-calc/img/sh-left.png) no-repeat;
+	position: relative;
+}
+
+.sh-right {
+	height: 135px;
+	width: 312px;
+	background: url(https://sycamore.kz/wp-content/plugins/wdh-calc/img/sh-right.png) no-repeat;
+	position: relative;
+}
+
+.sh-title-left {
+	color: #fff;
+	position: absolute;
+	margin: 16px auto 16px 20px;
+}
+
+.sh-title-right {
+	color: #fff;
+	position: absolute;
+	margin: 16px 20px 16px auto;
+	right: 20px;
+}
+
+.sh-txt-left {
+	position: absolute;
+	font-size: 36px;
+	font-weight: 700;
+	bottom: 15px;
+	left: 22px;
+}
+
+.sh-txt-right {
+	position: absolute;
+	font-size: 36px;
+	font-weight: 700;
+	bottom: 15px;
+	right: 22px;
+}
+
+.report-link-row {
+	max-width: 637px;
+	height: 47px;
+	background: url(https://sycamore.kz/wp-content/plugins/wdh-calc/img/link-top-line.png);
+	position: relative;
+	display: flex;
+	margin-bottom: 16px;
+}
+
+.report-link-number {
+	width: 71px;
+	height: 47px;
+	background: url(https://sycamore.kz/wp-content/plugins/wdh-calc/img/link-number-back.png);
+	color: #fff;
+	font-size: 16px;
+	font-weight: 750;
+	padding-left: 3px;
+}
+
+.report-link-text {
+	height: 38px;
+	font-size: 16px;
+	font-weight: 750;
+	padding: 9px 40px;
+	width: 100%;
+	margin-top: 7px;
+	margin-left: -40px;
+}
+
+.report-link-text:hover {
+	background: url(https://sycamore.kz/wp-content/plugins/wdh-calc/img/link-hover.png);
+}
+
+.report-link-link {
+	background: url(https://sycamore.kz/wp-content/plugins/wdh-calc/img/external_link.png);
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	right: 20px;
+	top: 10px;
+}
+
+.report-link-file {
+	background: url(https://sycamore.kz/wp-content/plugins/wdh-calc/img/download.svg);
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	right: 20px;
+	top: 10px;
+}
+
+.row-stages {
+	margin-top: 32px;
+	margin-bottom: 35px;
+}
+
+.green-title-stages {
+	width: 91px;
+	height: 41px;
+	background: url(https://sycamore.kz/wp-content/plugins/wdh-calc/img/bg-stages.png) no-repeat;
+	font-size: 24px;
+	font-weight: 700;
+	padding-left: 8px;
+}
+
+.green-title-teams {
+	width: 120px;
+	height: 40px;
+	background: url(https://sycamore.kz/wp-content/plugins/wdh-calc/img/bg-teams.png) no-repeat;
+	font-size: 24px;
+	font-weight: 700;
+	padding-left: 8px;
+}
+
+.green-budget-title {
+	width: 209px;
+	height: 40px;
+	background: url(https://sycamore.kz/wp-content/plugins/wdh-calc/img/bg-budget-expenses.png) no-repeat;
+	font-size: 24px;
+	font-weight: 700;
+	padding-left: 8px;
+}
+
+.row-dash {
+	margin-top: 60px;
+}
+
+.row-rep {
+	margin-top: 60px;
+}
+
+.green-reports {
+	width: 102px;
+	height: 40px;
+	background: url(https://sycamore.kz/wp-content/plugins/wdh-calc/img/bg-reports.png) no-repeat;
+	font-size: 24px;
+	font-weight: 700;
+	padding-left: 8px;
+}
+
+.row-rep-link {
+	margin-top: 28px;
+}
+
+.row-graph {
+	margin-top: 44px;
+}
+
+.row-teams {
+	margin-top: 30px;
+}
+
+.team-card {
+	position: relative;
+	width: 100%;
+	height: 76px;
+	padding: 3px;
+	margin-bottom: 20px;
+}
+
+.ug-t-l {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	left: 0px;
+	top: 0px;
+	border-left: 2px solid #222329;
+	border-top: 2px solid #222329;
+}
+
+.ug-b-l {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	left: 0px;
+	bottom: 0px;
+	border-left: 2px solid #222329;
+	border-bottom: 2px solid #222329;
+}
+
+.ug-t-r {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	right: 0px;
+	top: 0px;
+	border-right: 2px solid #222329;
+	border-top: 2px solid #222329;
+}
+
+.ug-b-r {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	right: 0px;
+	bottom: 0px;
+	border-right: 2px solid #222329;
+	border-bottom: 2px solid #222329;
+}
+
+.team-block {
+	background: #dbdcfa;
+	display: flex;
+	height: 100%;
+	align-items: center;
+}
+
+.img-team-circle {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+
+.team-img {
+	margin-left: 4px;
+}
+
+.team-text {
+	margin-left: 16px;
+}
+
+.team-title {
+	font-size: 16px;
+	font-weight: 750;
+	line-height: 22px;
+}
+
+.team-cont {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 19px;
+	color: #93939F;
+}
+
+.team-space {
+	position: relative;
+	height: 100%;
+	overflow-y: auto;
+}
+.login-form-title{
+	font-size: 36px;
+	font-weight: 800;
+	color: #222329;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+.login-form-txt p{
+	font-size: 20px;
+	line-height: 22px;
+	margin-bottom: 24px;
+}
+.login-form-input{
+	margin-top: 48px;
+}
+input[type="email"]{
+	background: #F0F0F9 !important;
+	padding: 16px 20px !important;
+	border-radius: 8px;
+	font-size: 20px !important;
+	color: #222329;
+	width: 100%;
+	outline: none !important;
+}
+.row-login-form-button{
+	margin-top: 48px;
+	margin-bottom: 96px;
+}
+input[type="button"], input[type="submit"]{
+	border: 0 !important;
+	background: url(https://sycamore.kz/wp-content/plugins/wdh-calc/img/bg-button-submit.svg) no-repeat !important;
+	color: #fff !important;
+	font-size: 16px;
+	font-weight: 750;
+	width: 205px !important;
+	height: 59px !important;
+	border-radius: 6px !important;
+	margin: auto;
+}
+
+
+.sign-form{
+	min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	position: relative;
+}
+.load{
+	width: 100px;
+    height: 100px;
+}
+.bottom-form{
+	background: url(https://sycamore.kz/wp-content/plugins/wdh-calc/img/bottomform.png) no-repeat;
+	width: 399px;
+	height: 27px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.r-ready{
+	width: 472px;
+	height: 473px;
+	background: url(https://sycamore.kz/wp-content/plugins/wdh-calc/img/bg-ready.svg) no-repeat;
+}
+.r-blue-title{
+    margin: 40px 40px 0 40px;
+    color: #1C28FF;
+    font-size: 48px;
+    font-weight: 800;
+}
+.r-black-title{
+    color: #222329;
+    font-size: 36px;
+    font-weight: 800;
+    margin: 8px 40px 0 40px;
+    line-height: 42px;
+}
+.r-txt{
+    color: #222329;
+    font-size: 20px;
+    line-height: 26px;
+    margin: 20px 40px 0 40px;
+}
+.r-button-row{
+    margin: 40px 40px 0 40px;
+    display: flex;
+}
+button.r-blue-button{
+    background: url(https://sycamore.kz/wp-content/plugins/wdh-calc/img/bg-butt-start-dev.svg) no-repeat !important;
+    width: 243px !important;
+    height: 53px !important;
+	color: #fff;
+	border: none;
+}
+button.r-white-button{
+	border: 1px solid #222329;
+	border-radius: 8px;
+	margin: 0 20px;
+	padding: 16px 32px;
+	font-size: 16px;
+	font-weight: 750;
+	color: #222329;
+	background: #fff;
+}

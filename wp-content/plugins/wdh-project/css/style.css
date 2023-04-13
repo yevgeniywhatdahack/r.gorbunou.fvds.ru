@@ -1,0 +1,386 @@
+
+/*
+.container-wrap{
+	background: #F0F0F9 !important;
+}
+#top{
+	background: #fff !important;
+}
+
+*/
+button{
+	border-radius: 4px !important;
+}
+.row-stages-title{
+	margin-top: 160px;
+}
+.title-row {
+	display: flex;
+	width: 100%;
+	position: relative;
+	height: 36px;
+}
+
+.start-rec {
+	position: absolute;
+	left: 0;
+}
+
+.discovery-rec {
+	position: absolute;
+	left: 30%;
+}
+
+.development-rec {
+	position: absolute;
+	left: 60%;
+}
+
+.delivery-rec {
+	position: absolute;
+	right: 0;
+}
+
+.title-row {
+	font-weight: 700;
+	color: #93939F;
+}
+
+.come {
+	color: #222329;
+}
+
+.band {
+	height: 120px;
+	position: relative;
+	width: 100%;
+}
+
+.btn-off{
+	border: 2px solid #93939F;
+	border-radius: 4px;
+	font-size: 16px;
+	color: #93939F;
+	display: flex;
+	padding: 20px;
+	cursor: pointer;
+	width: fit-content;
+	margin-left: auto;
+}
+.link-off{
+	text-align: right;
+}
+.log-out-ico{
+    width: 20px;
+    height: 20px !important;
+    margin-right: 10px;
+}
+.sh-left {
+	height: 135px;
+	width: 312px;
+	background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-calc/img/sh-left.png) no-repeat;
+	position: relative;
+	background-size: contain;
+}
+
+.sh-right {
+	height: 135px;
+	width: 312px;
+	background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-calc/img/sh-right.png) no-repeat;
+	position: relative;
+	background-size: contain;
+}
+
+.sh-title-left {
+	color: #fff;
+	position: absolute;
+	
+}
+
+.sh-title-right {
+	color: #fff;
+	position: absolute;
+}
+
+.sh-txt-left {
+	position: absolute;
+}
+
+.sh-txt-right {
+	position: absolute;
+}
+
+.report-link-row {
+	max-width: 637px;
+	height: 47px;
+	background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-calc/img/link-top-line.png);
+	position: relative;
+	display: flex;
+	margin-bottom: 16px;
+}
+
+.report-link-number {
+	width: 71px;
+	height: 47px;
+	background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-calc/img/link-number-back.png);
+	color: #fff;
+	font-size: 16px;
+	font-weight: 750;
+	padding-left: 3px;
+}
+
+.report-link-text {
+	height: 38px;
+	font-size: 16px;
+	font-weight: 750;
+	padding: 9px 40px;
+	width: 100%;
+	margin-top: 7px;
+	margin-left: -40px;
+}
+
+.report-link-text:hover {
+	background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-calc/img/link-hover.png);
+}
+
+.report-link-link {
+	background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-calc/img/external_link.png);
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	right: 20px;
+	top: 10px;
+}
+
+.report-link-file {
+	background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-calc/img/download.svg);
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	right: 20px;
+	top: 10px;
+}
+
+.row-stages {
+	margin-top: 32px;
+	margin-bottom: 35px;
+}
+
+.green-title-stages {
+	width: 91px;
+	height: 41px;
+	background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-calc/img/bg-stages.png) no-repeat;
+	font-size: 24px;
+	font-weight: 700;
+	padding-left: 8px;
+}
+
+.green-title-teams {
+	width: 120px;
+	height: 40px;
+	background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-calc/img/bg-teams.png) no-repeat;
+	font-size: 24px;
+	font-weight: 700;
+	padding-left: 8px;
+}
+
+.green-budget-title {
+	width: 209px;
+	height: 40px;
+	background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-calc/img/bg-budget-expenses.png) no-repeat;
+	font-size: 24px;
+	font-weight: 700;
+	padding-left: 8px;
+}
+h2{
+	font-family: Avenir;
+}
+.team-block {
+	display: flex;
+	height: 100%;
+	align-items: center;
+}
+.team-block:hover {
+	background: #dbdcfa;
+}
+
+.img-team-circle {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+
+.team-img {
+	margin-left: 4px;
+}
+
+.team-text {
+	margin-left: 16px;
+}
+
+.team-title {
+	font-size: 16px;
+	font-weight: 750;
+	line-height: 22px;
+}
+
+.team-cont {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 19px;
+	color: #93939F;
+}
+
+.team-space {
+	position: relative;
+	height: 100%;
+	overflow-y: auto;
+}
+
+@media (min-width: 320px){
+	.col-sm-hide{
+		display: block;
+	}
+	.xl-team{
+		display: none;
+	}
+	.sh-left {
+		width: 180px;
+		height: 115px;	
+	}
+	.sh-right {
+		width: 180px;
+		height: 115px;	
+	}
+	.sh-title-left {
+		margin: 3px auto 16px 15px;
+		font-size: 14px;
+	}
+	.sh-title-right {
+		margin: 3px 20px 16px auto;
+		right: 4px;
+		font-size: 14px;
+	}
+	.sh-txt-left{
+		font-size: 28px;
+		font-weight: 700;
+		bottom: 48px;
+		left: 16px;
+	}
+	.sh-txt-right {
+		font-size: 20px;
+		font-weight: 700;
+		bottom: 48px;
+		right: 12px;
+	}
+	.sm-donut{
+		display: block;
+	}
+	h2{
+		font-size: 28px !important;
+	}
+	.title-row {
+		font-size: 12px;
+	}
+	.row-bottom-band{
+		font-size: 12px;
+	}
+	.xl-donut{
+		display: none;
+	}
+}
+
+@media (min-width: 576px){
+	.col-sm-hide{
+		display: none;
+	}
+	.xl-team{
+		display: block;
+	}
+	
+	
+}
+@media (min-width: 768px){
+	.sh-left {
+		width: 268px;
+		height: 135px;	
+	}
+	.sh-right {
+		width: 268px;
+		height: 135px;	
+	}
+	.sh-title-left {
+		margin: 10px auto 16px 22px;
+		font-size: 20px;
+	}
+	.sh-title-right {
+		margin: 10px 20px 16px auto;
+		right: 7px;
+		font-size: 20px;
+	}
+	.sh-txt-left{
+		font-size: 36px;
+		font-weight: 700;
+		bottom: 28px;
+		left: 24px;
+	}
+	.sh-txt-right {
+		font-size: 28px;
+		font-weight: 700;
+		bottom: 43px;
+		right: 20px;
+	}
+	h2{
+		font-size: 48px !important;
+	}
+	.title-row {
+		font-size: 16px;
+	}
+	.row-bottom-band{
+		font-size: 16px;
+	}
+}
+
+@media only screen and (min-width: 1000px){
+	.container{
+		max-width: 1481px !important;
+	}
+
+}
+@media only screen and (min-width: 1200px){
+
+	.col-sm-hide{
+		display: block;
+	}
+	.xl-team{
+		display: none;
+	}
+	.xl-donut{
+		display: block;
+	}
+	.sh-left {
+		width: 312px;
+		height: 135px;
+	}
+	.sh-right {
+		width: 312px;
+		height: 135px;
+	}
+	.sh-title-left {
+		margin: 16px auto 16px 20px;
+	}
+	.sh-title-right {
+		margin: 16px 20px 16px auto;
+		right: 20px;
+	}
+	.sm-donut{
+		display: none;
+	}
+	.title-row {
+		font-size: 24px;
+	}
+	.row-bottom-band{
+		font-size: 21px;
+    	line-height: 28px;
+	}
+}

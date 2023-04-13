@@ -1,0 +1,774 @@
+/*
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... }
+*/
+
+p{
+    font-size: 14px;
+}
+/* Style for WDH Calc */
+.active {
+	display: block;
+}
+
+.sms-code {
+	margin: auto;
+	border: 0 !important;
+	font-size: 36px !important;
+	line-height: 42px;
+	padding: 15px !important;
+	outline: none !important;
+	letter-spacing: 12px;
+	width: 170px;
+  }
+  .red {
+	color: red !important;
+  }
+  
+  .sms-code::-webkit-input-placeholder {
+	color: #1C28FF;
+	font-size: 60px;
+	font-weight: 800;
+  }
+  .modal-backdrop{
+	z-index: 0 !important;
+  }
+
+#dropZone {
+	width: 100%;
+	height: 150px;
+	background: #efebeb;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	margin: 10px 0;
+}
+
+#dropZone.hover {
+	background: #ddd;
+	border-color: #aaa;
+}
+
+#dropZone.error {
+	background: #faa;
+	border-color: #f00;
+}
+
+#dropZone.drop {
+	background: #afa;
+	border-color: #0f0;
+}
+
+#loader {
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 300px;
+}
+
+.wrap-loader {
+	background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-calc/img/subtract.svg) no-repeat;
+	z-index: 1000;
+	position: absolute;
+	overflow: hidden;
+	background-size: contain;
+}
+
+#zebra {
+	background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-calc/img/zebram.png);
+	position: absolute;
+	z-index: 9;
+	left: -100%;
+}
+
+.loader-text {
+	position: absolute;
+	z-index: 1100;
+}
+
+.wdh-container-fluid {
+	background: #F0F0F9;
+}
+
+#whd-vertical-wrap {
+	position: relative;
+	z-index: 1051;
+	margin-top: 146px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 230px;
+	
+}
+
+.whd-vertical {
+	background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-calc/img/vertical.png) no-repeat;
+	z-index: 1051;
+	
+}
+.wdh-ready-form{
+	margin-top: 60px;	
+	right: 0;
+	z-index: 2000;
+}
+/*Spiner*/
+
+  
+/*End Spiner*/
+
+.hidden-form{
+	display: none;
+}
+#wdh-content{
+	margin-top: 100px;
+}
+.modal-dialog{
+	margin-top: 128px !important;
+}
+.login-form-title{
+	margin-top: 30px;
+}
+.wdh-space-box02{
+	cursor: pointer;
+	padding: 5px;
+}
+.wdh-space-box02:hover{
+	background: #eff1e0;
+}
+.wdh-space-box03{
+	cursor: pointer;
+	padding: 5px;
+}
+.wdh-space-box03:hover{
+	background: #eff1e0;
+}
+.wdh-space-box04{
+	cursor: pointer;
+	padding: 5px;
+}
+.wdh-space-box04:hover{
+	background: #eff1e0;
+}
+.wdh-space-box06{
+	cursor: pointer;
+	padding: 5px;
+}
+.wdh-space-box06:hover{
+	background: #eff1e0;
+}
+.wdh-quest-top {
+	height: 269px;
+	padding: 20px;
+	z-index: 1052;
+	top: -60px;
+	text-align: right;
+	border: 0;
+	border-radius: 0 !important;
+	line-height: 1.5;
+}
+
+.wdh-quest-top p {
+	font-size: 19px;
+}
+
+.wdh-space-box02 {
+	text-align: right;	
+	border: 0;
+	background: none;
+	line-height: 1.5;
+}
+
+.wdh-space-box02 p {
+	font-size: 19px;
+	text-align: right;
+	margin-bottom: 0;
+}
+
+.wdh-space-box03 {
+	text-align: left;
+	right: 0;
+	border: 0;
+	background: none;
+	line-height: 1.5;
+}
+
+.wdh-space-box03 p {
+	font-size: 19px;
+	margin-bottom: 0;
+
+}
+
+.wdh-blue {
+	color: #1C28FF;
+}
+
+.wdh-space-box04 {
+	text-align: right;
+	border: 0;
+	background: none;
+	line-height: 1.5;
+}
+
+.wdh-space-box04 p {
+	font-size: 19px;
+	margin-bottom: 0;
+}
+
+.wdh-space-box05 {
+	text-align: right;
+	border: 0;
+	background: none;
+	line-height: 1.5;
+}
+
+.wdh-space-box05 p {
+	font-size: 19px;
+	margin-bottom: 0;
+}
+
+.wdh-space-box06 {
+	text-align: right;
+	border: 0;
+	background: none;
+	line-height: 1.5;
+}
+
+.wdh-space-box06 p {
+	font-size: 19px;
+	margin-bottom: 0;
+}
+
+.base-rec {
+	position: relative;
+	display: flex;
+	width: 100%;
+	height: 42px;
+	border: 2px solid #222329;
+	margin-top: -40px;
+}
+
+.sector-rec {
+	width: 30%;
+	height: 40px;
+	border-right: 2px solid #222329;
+}
+
+.sector-rec-sm {
+	width: 10%;
+	height: 40px;
+}
+
+.polosa {
+	height: 26px;
+	background: #222329;
+	position: absolute;
+	top: 44px;
+	left: 8px;
+	right: 8px;
+}
+
+.pw10 {
+	width: 10%;
+}
+
+.pw33 {
+	width: 33%;
+}
+
+.pw70 {
+	width: 70%;
+}
+
+.pw100 {
+	width: 100%;
+}
+
+.top-rec {
+	width: 100%;
+	height: 40px;
+	position: relative;
+	display: flex;
+}
+
+.smsm-band {
+	width: 12px;
+	height: 38px;
+	border-right: 2px solid #EAFF00;
+	position: absolute;
+}
+
+.sector-band {
+	width: 33%;
+	height: 41px;
+	border-right: 2px solid #222329;
+}
+
+
+.act {
+	border-right: 2px solid #EAFF00 !important;
+}
+
+.row-bottom-band {
+	height: 40px;
+	display: flex;
+	color: #93939F;
+}
+
+.band-date-2 {
+	position: absolute;
+	left: 30%;
+}
+
+.band-date-3 {
+	position: absolute;
+	left: 60%;
+}
+
+.band-date-4 {
+	position: absolute;
+	right: 0;
+}
+
+
+
+.row-dash {
+	margin-top: 60px;
+}
+
+.row-rep {
+	margin-top: 60px;
+}
+
+.green-reports {
+	width: 102px;
+	height: 40px;
+	background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-calc/img/bg-reports.png) no-repeat;
+	font-size: 24px;
+	font-weight: 700;
+	padding-left: 8px;
+}
+
+.row-rep-link {
+	margin-top: 28px;
+}
+
+.row-graph {
+	margin-top: 44px;
+}
+
+.row-teams {
+	margin-top: 30px;
+}
+
+.team-card {
+	position: relative;
+	width: 100%;
+	height: 76px;
+	padding: 3px;
+	margin-bottom: 20px;
+}
+
+.ug-t-l {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	left: 0px;
+	top: 0px;
+	border-left: 2px solid #222329;
+	border-top: 2px solid #222329;
+}
+
+.ug-b-l {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	left: 0px;
+	bottom: 0px;
+	border-left: 2px solid #222329;
+	border-bottom: 2px solid #222329;
+}
+
+.ug-t-r {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	right: 0px;
+	top: 0px;
+	border-right: 2px solid #222329;
+	border-top: 2px solid #222329;
+}
+
+.ug-b-r {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	right: 0px;
+	bottom: 0px;
+	border-right: 2px solid #222329;
+	border-bottom: 2px solid #222329;
+}
+
+
+.login-form-title{
+	font-size: 36px;
+	font-weight: 800;
+	color: #222329;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+.login-form-txt p{
+	font-size: 20px;
+	line-height: 22px;
+	margin-bottom: 24px;
+}
+.login-form-input{
+	margin-top: 48px;
+}
+input[type="email"]{
+	background: #F0F0F9 !important;
+	padding: 16px 20px !important;
+	border-radius: 8px;
+	font-size: 20px !important;
+	color: #222329;
+	width: 100%;
+	outline: none !important;
+}
+.row-login-form-button{
+	margin-top: 48px;
+	margin-bottom: 96px;
+}
+
+.r-blue-button{
+	border: 0 !important;
+	background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-calc/img/bg-button-submit.svg) no-repeat !important;
+	color: #fff !important;
+	font-size: 16px;
+	font-weight: 750;
+	width: 209px !important;
+	height: 59px !important;
+	border-radius: 6px !important;
+	padding: 14px;
+}
+.r-white-button{
+	color: #222329 !important;
+	font-size: 16px;
+	font-weight: 750;
+	width: 129px !important;
+	height: 59px !important;
+	border: 1px solid #222329;
+	border-radius: 6px !important;
+	margin: auto;
+	padding: 14px;
+	text-align: center;
+}
+
+
+
+.sign-form{
+	margin-top: 40px;
+	min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	position: relative;
+}
+.load{
+	width: 100px;
+    height: 100px;
+}
+.bottom-form{
+	background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-calc/img/bottomform.png) no-repeat;
+	width: 399px;
+	height: 27px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.r-ready{
+	position: relative;
+	background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-calc/img/bg-ready.svg) no-repeat;
+	padding: 20px 0;
+}
+.r-blue-title{
+    margin: 40px 40px 0 40px;
+    color: #1C28FF;
+    font-weight: 800;
+}
+.r-black-title{
+    color: #222329;
+    font-weight: 800;
+    margin: 8px 40px 0 40px;
+}
+.r-txt{
+    color: #222329;
+    margin: 20px 40px 0 40px;
+}
+.r-button-row{
+    margin: 40px 40px 0 40px;
+    display: flex;
+}
+button.r-blue-button{
+    background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-calc/img/bg-butt-start-dev.svg) no-repeat !important;
+    width: 243px !important;
+    height: 53px !important;
+	color: #fff;
+	border: none;
+}
+button.r-white-button{
+	border: 1px solid #222329;
+	border-radius: 8px;
+	margin: 0 20px;
+	padding: 16px 32px;
+	font-size: 16px;
+	font-weight: 750;
+	color: #222329;
+	background: #fff;
+}
+
+
+@media (min-width: 320px) { 
+    .const01{
+        display: block;
+        width: 100%;
+        height: 492px;
+        background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-calc/img/const01.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .const02{
+        display: block;
+        width: 100%;
+        height: 417px;
+        background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-calc/img/const02.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .const03{
+        display: block;
+        width: 100%;
+        height: 361px;
+        background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-calc/img/const03.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .const04{
+        display: block;
+        width: 100%;
+        height: 363px;
+        background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-calc/img/const04.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .const05{
+        display: block;
+        width: 100%;
+        height: 363px;
+        background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-calc/img/const05.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .const06{
+        display: block;
+        width: 100%;
+        height: 393px;
+        background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-calc/img/const06.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .wdh-quest-top{
+        position: relative;
+        width: 100%;
+    }
+    .wdh-space-box02{
+        position: relative;
+        width: 100%;
+    }
+    .wdh-space-box03{
+        position: relative;
+        width: 100%;
+    }
+    .wdh-space-box04{
+        position: relative;
+        width: 100%;
+    }
+    .wdh-space-box05{
+        position: relative;
+        width: 100%;
+    }
+    .wdh-space-box06{
+        position: relative;
+        width: 100%;
+    }
+	.wdh-ready-form{
+		position: relative;	
+	}
+	#loader {
+		width: 364px;
+		height: 90px;
+	}
+	.wrap-loader {
+		width: 364px;
+		height: 90px;
+	}
+	#zebra {
+		width: 364px;
+		height: 23px;
+		margin-top: 16px;
+	}
+	.loader-text {
+		right: 10px;
+		top: -2px;
+		font-size: 7px;
+	}
+	.r-ready{
+		width: 320px;
+		height: 473px;
+	}
+	.r-black-title{
+		font-size: 24px;
+		line-height: 28px;
+	}
+	.r-blue-title{
+		font-size: 36px;
+	}
+	.r-txt{
+		font-size: 18px;
+		line-height: 26px;
+	}
+ }
+
+
+@media (min-width: 768px) { 
+    .whd-vertical {
+        width: 768px;
+        height: 1217px;
+        background-size: cover;
+    }
+    #whd-vertical-wrap {
+        width: 768px;
+        height: 1376px;
+        margin-left: -130px;
+    }
+    .const01{
+        display: none !important;
+    }
+    .const02{
+        display: none !important;
+    }
+    .const03{
+        display: none !important;
+    }
+    .const04{
+        display: none !important;
+    }
+    .const05{
+        display: none !important;
+    }
+    .const06{
+        display: none !important;
+    }
+    .wdh-quest-top{
+        position: absolute;
+        width: 368px;
+    }
+    .wdh-space-box02{
+        position: absolute;
+        top: 237px;
+        width: 205px;
+    }
+    .wdh-space-box03{
+        position: absolute;
+        top: 460px;
+        width: 340px;
+    }
+    .wdh-space-box04{
+        position: absolute;
+        top: 755px;
+        width: 250px;
+    }
+    .wdh-space-box05{
+        position: absolute;
+        top: 1130px;
+        width: 250px;
+    }
+    .wdh-space-box06{
+        position: absolute;
+        top: 1367px;
+        width: 250px;
+        left: 290px;
+    }
+	.wdh-ready-form{
+		position: absolute;
+	}
+	.r-ready{
+		position: relative;
+		width: 472px;
+		height: 473px;
+		background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-calc/img/bg-ready.svg) no-repeat;
+		padding: 20px 0;
+	}
+	.r-black-title{
+		font-size: 36px;
+		line-height: 42px;
+	}
+	.r-blue-title{
+		font-size: 48px;
+	}
+	.r-txt{
+		font-size: 20px;
+		line-height: 26px;
+	}
+	
+ }
+
+
+@media (min-width: 992px) { 
+    .whd-vertical {
+        width: 881px;
+        height: 1376px;
+        background-size: cover;
+    }
+    #whd-vertical-wrap {
+        width: 921px;
+        height: 1376px;
+		margin-left: 0;
+    }
+	#loader {
+		width: 720px;
+		height: 82px;
+	}
+	.wrap-loader {
+		width: 720px;
+		height: 82px;
+	}
+	.loader-text {
+		right: 10px;
+		top: 4px;
+		font-size: 16px;
+	}
+	#zebra {
+		width: 720px;
+		height: 28px;
+		margin-top: 42px;
+	}
+ }
+
+
+@media (min-width: 1200px) { }
+
+@media (min-width: 1400px) { }
+
