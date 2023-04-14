@@ -22,3 +22,5 @@ To set up integration with typeforms, you need to redirect to the page with the 
 - platform (array ,)
 
 Twillio key settings are in the same file
+
+[If you have any questions write me](mailto:ye.muratshayev@gmail.com)
