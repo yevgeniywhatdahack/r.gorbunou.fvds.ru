@@ -646,6 +646,7 @@ function showCode() {
   var platform = document.getElementById("platform").value;
   var userteam = document.getElementById("userteam").value;
   var userdates = document.getElementById("userdates").value;
+  var auth = document.getElementById("auth").value;
 
   document.getElementById("phone").value = userphone;
 
@@ -658,11 +659,15 @@ function showCode() {
     platform: platform,
     userteam: userteam,
     userdates: userdates,
+    auth: auth,
   };
   jQuery.post(ajaxurl, data, function (response) {
     response = response.substring(0, response.length - 1);
     console.log("wdh_create_user: " + response);
     document.getElementById("project").value = response;
+    if (auth == 1) {
+      window.location.href = "https://r.gorbunou.fvds.ru/projects/";
+    }
   });
 
   document.getElementById("wdh-content").innerHTML = showFormCode();
