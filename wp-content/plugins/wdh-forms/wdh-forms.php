@@ -147,6 +147,7 @@ function wdh_create_user_callback() {
 	$platform  = sanitize_text_field( $_POST['platform'] );
 	$userteam  = sanitize_text_field( $_POST['userteam'] );
 	$userdates = sanitize_text_field( $_POST['userdates'] );
+	$auth      = sanitize_text_field( $_POST['auth'] );
 
 	$password = wp_generate_password( 12, false );
 	$username = $userphone;
@@ -166,15 +167,18 @@ function wdh_create_user_callback() {
 		}
 		$usercheck = 1;
 	}
+	$pin = rand( 1000, 9999 );
 	if ( $usercheck == 0 ) {
 
 		$user_id = wp_create_user( $username, $password, $email );
-		$pin     = rand( 1000, 9999 );
 		update_user_meta( $user_id, 'telephone', $userphone );
-
 		update_user_meta( $user_id, 'active', 'no' );
 		update_user_meta( $user_id, 'pin', $pin );
 
+	} else {
+		if ( $auth == 0 ) {
+			update_user_meta( $user_id, 'pin', $pin );
+		}
 	}
 
 	// create project
@@ -239,6 +243,7 @@ function wdh_create_user_callback() {
 		'post_author'  => $user_id,
 	);
 	$post_id   = wp_insert_post( $post_data, true );
+	echo $post_id;
 	update_post_meta( $post_id, 'owner', $user_id );
 	update_post_meta( $post_id, 'stages', 'Start' );
 	update_post_meta( $post_id, 'current_status', 'Waiting' );
@@ -250,7 +255,6 @@ function wdh_create_user_callback() {
 	update_post_meta( $post_id, 'quantity_staff', $base_setup_quantity );
 	update_post_meta( $post_id, 'budget', $budget );
 	update_post_meta( $post_id, 'budget_expenses', 0 );
-	echo $post_id;
 
 	// send sms
 
@@ -278,22 +282,24 @@ function wdh_create_user_callback() {
 	require __DIR__ . '/twilio-php-main/src/Twilio/autoload.php';
 	// $userphone = '+385915297770';
 
-	$sid    = 'AC863acb2f35ba737c892d21dcea6e5e0d'; // Your Account SID from https://console.twilio.com
-	$token  = 'cfe505942ee471c1c7a9af5a6f05169d'; // Your Auth Token from https://console.twilio.com
-	$client = new Twilio\Rest\Client( $sid, $token );
+	$sid = 'AC863acb2f35ba737c892d21dcea6e5e0d'; // Your Account SID from https://console.twilio.com
+	// $token  = 'cfe505942ee471c1c7a9af5a6f05169d'; // Your Auth Token from https://console.twilio.com
+	$token = 'c73860326e0b48aa3954f459ddd94c68'; // Your Auth Token from https://console.twilio.com
 
-	// echo 'userphone: ' . $userphone;
+	if ( $auth == 0 ) {
+		$client = new Twilio\Rest\Client( $sid, $token );
 
-	$client->messages->create(
-	// The number you'd like to send the message to
-		$userphone,
-		array(
-			// A Twilio phone number you purchased at https://console.twilio.com
-			'from' => '+15139515594',
-			// The body of the text message you'd like to send
-			'body' => 'Your PIN: ' . $pin,
-		)
-	);
+		$client->messages->create(
+		// The number you'd like to send the message to
+			$userphone,
+			array(
+				// A Twilio phone number you purchased at https://console.twilio.com
+				'from' => '+15139515594',
+				// The body of the text message you'd like to send
+				'body' => 'Your PIN: ' . $pin,
+			)
+		);
+	}
 
 }
 add_action( 'wp_ajax_wdh_sendnewsms', 'wdh_sendnewsms_callback' );
@@ -307,8 +313,9 @@ function wdh_sendnewsms_callback() {
 		update_user_meta( $user_id, 'pin', $pin );
 		require __DIR__ . '/twilio-php-main/src/Twilio/autoload.php';
 
-		$sid    = 'AC863acb2f35ba737c892d21dcea6e5e0d'; // Your Account SID from https://console.twilio.com
-		$token  = 'cfe505942ee471c1c7a9af5a6f05169d'; // Your Auth Token from https://console.twilio.com
+		$sid = 'AC863acb2f35ba737c892d21dcea6e5e0d'; // Your Account SID from https://console.twilio.com
+		// $token  = 'cfe505942ee471c1c7a9af5a6f05169d'; // Your Auth Token from https://console.twilio.com
+		$token  = 'c73860326e0b48aa3954f459ddd94c68'; // Your Auth Token from https://console.twilio.com
 		$client = new Twilio\Rest\Client( $sid, $token );
 
 		$client->messages->create(
@@ -401,6 +408,12 @@ function wdh_forms_shortcode( $atts ) {
 		$txt = $txt . '<input type="hidden" name="userteam" id="userteam">';
 		$txt = $txt . '<input type="hidden" name="userdates" id="userdates">';
 		$txt = $txt . '<input type="hidden" name="project" id="project">';
+	if ( is_user_logged_in() ) {
+		$auth = 1;
+	} else {
+		$auth = 0;
+	}
+		$txt = $txt . '<input type="hidden" name="auth" id="auth" value="' . $auth . '">';
 		$txt = $txt . '</form>';
 		$txt = $txt . '</div>';
 
