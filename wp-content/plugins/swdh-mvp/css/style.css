@@ -1,0 +1,1098 @@
+.mvp-top {
+    margin-top: 100px !important;
+}
+
+.mvp-top-top {
+    position: relative;
+}
+
+.mvp-top-row {
+    font-family: AvenirNext;
+    color: #42434D;
+    width: fit-content;
+}
+
+.mvp-top-content {
+    font-family: AvenirNext;
+    color: #222329
+}
+
+.mvp-top-content h1,
+h3 {
+    font-family: Avenir;
+    color: #222329;
+}
+
+.mvp-top-content h1 {
+    font-weight: 800;
+}
+
+.mvp-top-button-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.mvp-top-right-block {
+    display: flex !important;
+    align-items: center;
+}
+
+.mvp-top-bottom {
+    font-family: AvenirNext;
+    color: #93939F;
+}
+
+.mvp-minimum-fluid {
+    background: #222329;
+}
+
+.mvp-minimum-content {
+    font-family: AvenirNext;
+    color: #FFF;
+}
+
+.mvp-minimum-center-block {
+    margin-top: 32px;
+}
+
+.mvp-min-card {
+    border-left: 2px solid #EAFF00;
+    border-right: 2px solid #EAFF00;
+    border-bottom: 2px solid #EAFF00;
+    padding: 0 !important;
+    height: 100%;
+}
+
+.mvp-min-card-title {
+    font-family: AvenirNext;
+    font-weight: 700;
+    color: #222329;
+    background: #EAFF00;
+}
+
+.mvp-min-card-content {
+    font-family: AvenirNext;
+    color: #FFF;
+}
+
+.mvp-minimum-bottom-block {
+    font-family: AvenirNext;
+    color: #FFF;
+}
+
+.t-process-bottom-row {
+    border: 2px solid #222329;
+    border-radius: 12px;
+}
+
+.t-process-bottom-c-row {
+    align-items: center;
+}
+
+.t-process-bottom-txt {
+    font-family: AvenirNext;
+    color: #222329;
+}
+
+.t-process-bottom-link {
+    font-family: AvenirNext;
+    color: #1C28FF;
+    font-weight: 700;
+}
+
+.t-process-bottom-link a {
+    color: #1C28FF;
+    text-decoration: none;
+}
+
+.mvp-hire-subtitle {
+    font-family: AvenirNext;
+    color: #222329;
+}
+
+.mvp-hire-card-title {
+    font-family: Avenir;
+    font-weight: 800;
+    color: #222329;
+}
+
+.mvp-baks {
+    font-family: AvenirNext;
+    color: #222329;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 43px;
+    margin-top: -10px;
+}
+
+.mvp-baks-text {
+    font-family: Avenir;
+    color: #222329;
+    font-weight: 800;
+}
+
+.mvp-hire-card-price-left-title {
+    display: flex;
+}
+
+.mvp-hire-card-price-left-content {
+    font-family: AvenirNext;
+    color: #222329;
+    display: flex;
+    border-bottom: 2px solid #1C28FF;
+}
+
+.mvp-hire-card-price-row {
+    display: flex;
+}
+
+.mvp-hire-card-list-block {
+    background: #F0F0F9;
+    border-left: 2px solid #222329;
+    border-right: 2px solid #222329;
+    border-bottom: 2px solid #222329;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin-top: -10px !important;
+}
+
+.mvp-hire-card-list-block.yellow {
+    background: #EAFF00 !important;
+}
+
+.mvp-hire-card {
+    position: relative;
+}
+
+.mvp-hire-card-list-block-txt li {
+    font-family: AvenirNext;
+    color: #222329;
+    list-style: none;
+    background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-mvp/img/mvp-li.svg) no-repeat 0 12px;
+    padding: 12px 7px 12px 36px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.mvp-hire-card-list-block ul {
+    padding: 0;
+    margin-left: 0;
+}
+
+.mvp-step1 {
+    background: #222329;
+}
+
+.mvp-step1-terms,
+.mvp-step2-terms {
+    background: #EAFF00;
+    font-family: AvenirNext;
+    color: #222329;
+    width: fit-content;
+    padding: 16px 12px;
+    margin-left: auto;
+}
+
+.step1-col-terms {
+    text-align: right;
+}
+
+.mvp-step1-card-row {
+    margin-top: 60px;
+}
+
+.mvp-step1-card {
+    border: 2px solid #EAFF00;
+}
+
+.mvp-step1-card-title {
+    background: #EAFF00;
+    display: flex;
+    padding-left: 16px;
+}
+
+.mvp-step1-title-row {
+    align-items: center;
+}
+
+.mvp-step1-card-title-span {
+    font-family: AvenirNext;
+    color: #222329;
+    font-weight: 700;
+    margin-right: 8px;
+}
+
+.mvp-step1-card-subtitle-nospan {
+    font-family: AvenirNext;
+    color: #222329;
+}
+
+.mvp-step1-card-content {
+    font-family: AvenirNext;
+    color: #fff;
+}
+
+.mvp-step1-card-content ul li {
+    list-style-image: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-mvp/img/white-li.png);
+}
+
+.mvp-step1-card-content ul {
+    padding: 0;
+}
+
+.table {
+    text-align: center;
+    font-family: AvenirNext;
+}
+
+.th-badge {
+    padding: 4px 16px 4px 16px;
+    border-radius: 20px;
+    background: #222329;
+    color: #fff;
+    font-family: AvenirNext;
+    font-weight: 700;
+    width: fit-content;
+    margin: auto;
+}
+
+.table td span {
+    font-family: AvenirNext;
+    font-weight: 700;
+}
+
+.l-col {
+    text-align: left !important;
+}
+
+.mvp-ceo-card-block {
+    border: 4px solid #222329;
+    border-radius: 40px;
+    background: #F0F0F9;
+    position: relative;
+    overflow: hidden;
+}
+
+.mvp-ceo-card-img {
+    width: 260px;
+    height: 260px;
+    border: 2px solid #222329;
+    border-radius: 40px 0px 40px 40px;
+    vertical-align: top !important;
+    margin: -2px;
+}
+
+.mvp-card-img-block {
+    padding: 0 !important;
+}
+
+.mvp-ceo-card-title {
+    font-family: AvenirNext;
+    font-weight: 700;
+    color: #222329;
+}
+
+.mvp-ceo-card-subtitle {
+    font-family: AvenirNext;
+    color: #222329;
+}
+
+.mvp-ceo-card-content {
+    font-family: AvenirNext;
+    color: #222329;
+}
+
+
+
+@media (min-width: 320px) {
+    .mvp-top-top {
+        width: 100%;
+    }
+
+    .mvp-top-left-block {
+        background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-mvp/img/mvp-top-all-sm.svg) no-repeat;
+        width: 337px !important;
+        height: 380px;
+        padding: 16px !important;
+    }
+
+    .mvp-top-right-block {
+        display: none;
+    }
+
+    .mvp-top-row {
+        padding-bottom: 16px;
+        border-bottom: 1px solid #42434D;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .mvp-top-content {
+        margin-top: 16px;
+    }
+
+    .mvp-top-content h1 {
+        font-size: 32px;
+        line-height: 39px;
+        margin-bottom: 16px;
+    }
+
+    .mvp-top-content h3 {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .mvp-top-content {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .mvp-top-button-row {
+        margin-top: 20px;
+    }
+
+    .mvp-top-button-row .text-button {
+        margin-top: 24px;
+    }
+
+    .mvp-top-img {
+        display: none;
+    }
+
+    .mvp-top-bottom {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .mvp-minimum-fluid {
+        margin-top: 60px !important;
+    }
+
+    .mvp-minimum-title-desktop {
+        display: none;
+    }
+
+    .mvp-minimum-title-lg {
+        display: block;
+    }
+
+    .mvp-minimum {
+        margin-top: 60px !important;
+        margin-bottom: 60px !important;
+    }
+
+    .mvp-minimum-content {
+        margin-top: 32px !important;
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .mvp-min-card-title {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .mvp-min-card-content {
+        margin: 16px 12px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .mvp-minimum-bottom-block {
+        margin-top: 32px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .t-process-bottom-img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .t-process-arrow-right {
+        width: 60px;
+        height: 60px;
+    }
+
+    .t-process-bottom-row {
+        padding: 20px !important;
+        margin-top: 40px !important;
+    }
+
+    .t-process-bottom-txt {
+        font-size: 16px;
+        line-height: 21px;
+        font-weight: 700;
+    }
+
+    .t-process-bottom-link {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .mvp-hire,
+    .mvp-process {
+        margin-top: 100px !important;
+    }
+
+    .mvp-hire-subtitle {
+        margin-top: 40px;
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .mvp-hire-card-top {
+        background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-mvp/img/hire-rec-sm.svg) no-repeat;
+        width: 380px;
+        height: 281px;
+        padding-top: 58px;
+        padding-left: 24px;
+        padding-right: 24px;
+        position: relative;
+        z-index: 5;
+    }
+
+    .mvp-hire-card-list-block {
+        width: 380px;
+        padding: 24px;
+    }
+
+
+    .mvp-hire-card-title {
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    .mvp-baks-text {
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    .mvp-hire-card-price-left-title {
+        margin-top: 42px;
+    }
+
+    .mvp-hire-card-price-left-content {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        height: 40px;
+    }
+
+    .mvp-hire-card-price-right-sphere {
+        width: 140px;
+        height: 140px;
+    }
+
+    .mvp-hire-card-price-right-conus {
+        width: 140px;
+        height: 140px;
+    }
+
+    .mvp-hire-card-price-right-cilinder {
+        width: 140px;
+        height: 140px;
+    }
+
+    .mvp-hire-card-list-block-txt li {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .mvp-hire-card-list-block-txt {
+        padding-top: 24px;
+    }
+
+    .mvp-step1-title-row {
+        margin-top: 60px !important;
+    }
+
+    .mvp-step1-terms {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .mvp-step1 {
+        margin-top: 60px !important;
+    }
+
+    .mvp-step1-card-title {
+        flex-wrap: wrap;
+    }
+
+    .mvp-step1-card-title-span {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .mvp-step1-card-subtitle-nospan {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .mvp-step1-card {
+        min-height: auto;
+    }
+
+    .mvp-step1-card-content {
+        padding: 20px 16px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .mvp-step1-card-row.bot {
+        margin-bottom: 60px !important;
+    }
+
+    .mvp-step2-title-row {
+        margin-top: 60px !important;
+    }
+
+    .th-badge {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .table td {
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+    }
+
+    .table td span {
+        font-size: 14px;
+        line-height: 18px;
+        text-align: left;
+    }
+
+    .mvp-step2-ceo-card-row {
+        margin-top: 40px;
+    }
+
+    .mvp-ceo-card-title {
+        font-size: 28px;
+        line-height: 38px;
+        margin-top: 20px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .mvp-ceo-card-subtitle {
+        font-size: 16px;
+        line-height: 21px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .mvp-ceo-card-content {
+        font-size: 16px;
+        line-height: 21px;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-bottom: 24px;
+        margin-top: 20px;
+    }
+
+    .mvp-ceo-card-shtrih {
+        width: 25px;
+        height: 246px;
+        background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-mvp/img/mvp-shtrih-v.svg) no-repeat;
+        position: absolute;
+        top: 0;
+        right: 12px;
+    }
+
+    .mvp-ceo-card-block.row {
+        margin: 0 !important;
+    }
+
+}
+
+@media (min-width: 780px) {
+    .mvp-top-top {
+        width: 1013px !important;
+    }
+
+    .mvp-top-left-block {
+        background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-mvp/img/mvp-top-left-lg.svg) no-repeat;
+        width: 634px !important;
+        height: 361px;
+        padding: 36px !important;
+    }
+
+    .mvp-top-right-block {
+        display: block;
+        background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-mvp/img/mvp-top-right-lg.svg) no-repeat;
+        width: 375px !important;
+        height: 361px;
+        margin-left: -110px;
+    }
+
+    .mvp-top-row {
+        padding-bottom: 16px;
+        border-bottom: 1px solid #42434D;
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .mvp-top-content {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .mvp-top-content h1 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .mvp-top-content h3 {
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 34px;
+        margin-top: 8px;
+    }
+
+    .mvp-top-button-row .text-button {
+        margin-top: 0;
+        margin-left: 24px;
+    }
+
+    .mvp-top-img {
+        display: block;
+    }
+
+    .mvp-top-img img {
+        width: 323px;
+        height: 323px;
+    }
+
+    .mvp-top-bottom {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .mvp-minimum-fluid {
+        margin-top: 80px;
+    }
+
+    .mvp-minimum {
+        margin-top: 100px !important;
+        margin-bottom: 100px !important;
+    }
+
+    .mvp-minimum-content {
+        margin-top: 26px !important;
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .mvp-min-card-content {
+        margin: 24px;
+    }
+
+    .t-process-bottom-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .t-process-bottom-row {
+        padding-top: 32px;
+        padding-bottom: 32px !important;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .t-process-bottom-txt {
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 700;
+    }
+
+    .mvp-hire,
+    .mvp-process {
+        margin-top: 180px !important;
+    }
+
+    .mvp-hire-card-top {
+        background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-mvp/img/hire-rec-lg.svg) no-repeat;
+        width: 285px;
+        height: 261px;
+    }
+
+    .mvp-hire-card-list-block {
+        width: 285px;
+    }
+
+    .mvp-hire-card-title {
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    .mvp-hire-card-price-left-title {
+        margin-top: 32px;
+    }
+
+    .mvp-hire-card-price-right-sphere {
+        width: 120px;
+        height: 120px;
+    }
+
+    .mvp-hire-card-price-right-conus {
+        width: 120px;
+        height: 120px;
+    }
+
+    .mvp-hire-card-price-right-cilinder {
+        width: 120px;
+        height: 120px;
+    }
+
+    .mvp-step1-title-row {
+        margin-top: 100px !important;
+    }
+
+    .mvp-step1 {
+        margin-top: 100px !important;
+    }
+
+    .mvp-step1-card {
+        min-height: 364px;
+    }
+
+    .mvp-step1-card-row.bot {
+        margin-bottom: 100px !important;
+    }
+
+    .mvp-step2-title-row {
+        margin-top: 100px !important;
+    }
+
+    .th-badge {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .table td {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .table td span {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .mvp-ceo-card-title {
+        font-size: 28px;
+        line-height: 38px;
+        margin-top: 52px;
+        padding: 0;
+    }
+
+    .mvp-ceo-card-subtitle {
+        padding: 0;
+    }
+
+    .mvp-ceo-card-content {
+        padding: 0;
+    }
+
+    .mvp-ceo-card-shtrih {
+        width: 424px;
+        height: 42px;
+        background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-mvp/img/mvp-shtrih-h.svg) no-repeat;
+        position: absolute;
+        top: 0;
+        right: 60px;
+    }
+
+}
+
+@media (min-width: 1400px) {
+    .mvp-top-top {
+        width: 1707px !important;
+    }
+
+    .mvp-top-left-block {
+        background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-mvp/img/mvp-top-left-bg.svg) no-repeat;
+        width: 984px !important;
+        height: 585px;
+        padding: 56px 150px 56px 56px !important;
+    }
+
+    .mvp-top-right-block {
+        display: block;
+        background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-mvp/img/mvp-top-right-bg.svg) no-repeat;
+        width: 719px !important;
+        height: 585px;
+        margin-left: -236px;
+    }
+
+    .mvp-top-row {
+        padding-bottom: 24px;
+        border-bottom: 1px solid #42434D;
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .mvp-top-content {
+        margin-top: 32px;
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .mvp-top-content h1 {
+        font-size: 64px;
+        line-height: 78px;
+        margin-bottom: 32px;
+    }
+
+    .mvp-top-content h3 {
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 44px;
+        margin-top: 16px;
+    }
+
+    .mvp-top-button-row {
+        margin-top: 60px;
+    }
+
+    .mvp-top-button-row .text-button {
+        margin-top: 0;
+        margin-left: 40px;
+    }
+
+    .mvp-top-img img {
+        width: 565px;
+        height: 565px;
+    }
+
+    .mvp-top-bottom {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .mvp-minimum-fluid {
+        margin-top: 200px !important;
+    }
+
+    .mvp-minimum-title-desktop {
+        display: block;
+        color: #fff;
+        font-family: Avenir;
+        font-weight: 800;
+        font-size: 64px;
+        line-height: 78px;
+        background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-mvp/img/mvp-subs-black.svg) no-repeat;
+        background-position: left bottom;
+    }
+
+    .mvp-minimum-title-lg {
+        display: none;
+    }
+
+    .mvp-minimum {
+        margin-top: 200px !important;
+        margin-bottom: 200px !important;
+    }
+
+    .mvp-minimum-content {
+        margin-top: 0;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .mvp-min-card-title {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .mvp-min-card-content {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .mvp-minimum-bottom-block {
+        margin-top: 32px;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .t-process-bottom-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .t-process-arrow-right {
+        width: 80px;
+        height: 80px;
+    }
+
+    .t-process-bottom-row {
+        padding: 40px !important;
+        margin-top: 60px !important;
+    }
+
+    .t-process-bottom-txt {
+        font-size: 32px;
+        line-height: 43px;
+        font-weight: 400;
+    }
+
+    .t-process-bottom-link {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .mvp-hire,
+    .mvp-process {
+        margin-top: 200px !important;
+    }
+
+    .mvp-hire-subtitle {
+        margin-top: 60px;
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .mvp-hire-card-top {
+        background: url(https://r.gorbunou.fvds.ru/wp-content/plugins/wdh-mvp/img/hire-rec-xl.svg) no-repeat;
+        width: 472px;
+        height: 400px;
+        padding-top: 74px;
+        padding-left: 44px;
+        padding-right: 44px;
+    }
+
+    .mvp-hire-card-list-block {
+        width: 472px;
+        padding: 32px 40px;
+    }
+
+    .mvp-hire-card-title {
+        font-size: 48px;
+        line-height: 59px;
+    }
+
+    .mvp-baks-text {
+        font-size: 48px;
+        line-height: 59px;
+    }
+
+    .mvp-hire-card-price-left-title {
+        margin-top: 57px;
+    }
+
+    .mvp-hire-card-price-left-content {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 42px;
+        height: 60px;
+    }
+
+    .mvp-hire-card-price-right-sphere {
+        width: 200px;
+        height: 200px;
+    }
+
+    .mvp-hire-card-price-right-conus {
+        width: 200px;
+        height: 200px;
+    }
+
+    .mvp-hire-card-price-right-cilinder {
+        width: 200px;
+        height: 200px;
+    }
+
+    .mvp-hire-card-list-block-txt li {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .mvp-hire-card-list-block-txt {
+        padding-top: 24px;
+    }
+
+    .mvp-step1-title-row {
+        margin-top: 200px !important;
+    }
+
+    .mvp-step1-terms {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .mvp-step1 {
+        margin-top: 200px !important;
+    }
+
+    .mvp-step1-card-title {
+        flex-wrap: nowrap;
+    }
+
+    .mvp-step1-card-title-span {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .mvp-step1-card-subtitle-nospan {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .mvp-step1-card {
+        min-height: 362px;
+    }
+
+    .mvp-step1-card-content {
+        padding: 24px 20px;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .mvp-step1-card-row.bot {
+        margin-bottom: 200px !important;
+    }
+
+    .mvp-step2-title-row {
+        margin-top: 200px !important;
+    }
+
+    .table td {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .table td span {
+        font-size: 24px;
+        line-height: 32px;
+        text-align: left;
+    }
+
+    .mvp-step2-ceo-card-row {
+        margin-top: 80px;
+    }
+
+    .mvp-ceo-card-title {
+        font-size: 32px;
+        line-height: 43px;
+        margin-top: 32px;
+    }
+
+    .mvp-ceo-card-subtitle {
+        font-size: 20px;
+        line-height: 27px;
+        margin-top: 8px;
+    }
+
+    .mvp-ceo-card-content {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+}
